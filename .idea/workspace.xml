@@ -9,27 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cda873e1-1587-457b-8203-6ec578795c16" name="Changes" comment="404 error resolved - working on database">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/ServletScoreCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Skyway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/GolfData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/golf_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="cda873e1-1587-457b-8203-6ec578795c16" name="Changes" comment="404 error resolved - database is connected!!!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/ServletScoreCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/finalgolfappproject/ServletScoreCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +92,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thomas.finalgolfappproject.Program" />
       <module name="FinalGolfAppProject" />
@@ -304,8 +287,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -319,8 +302,16 @@
       <updated>1680152354635</updated>
       <workItem from="1680152357463" duration="4974000" />
       <workItem from="1680226225966" duration="282000" />
-      <workItem from="1680226552164" duration="1262000" />
+      <workItem from="1680226552164" duration="2130000" />
     </task>
+    <task id="LOCAL-00001" summary="404 error resolved - database is connected!!!">
+      <created>1680228121593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680228121593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +330,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="404 error resolved - working on database" />
-    <option name="LAST_COMMIT_MESSAGE" value="404 error resolved - working on database" />
+    <MESSAGE value="404 error resolved - database is connected!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="404 error resolved - database is connected!!!" />
   </component>
 </project>

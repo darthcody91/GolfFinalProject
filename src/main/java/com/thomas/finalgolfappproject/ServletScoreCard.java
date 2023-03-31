@@ -11,15 +11,15 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "ServletScoreCard", value = "/ServletScoreCard")
 public class ServletScoreCard extends HttpServlet {
-    protected int hole1;
-    protected int hole2;
-    protected int hole3;
-    protected int hole4;
-    protected int hole5;
-    protected int hole6;
-    protected int hole7;
-    protected int hole8;
-    protected int hole9;
+    protected static int hole1;
+    protected static int hole2;
+    protected static int hole3;
+    protected static int hole4;
+    protected static int hole5;
+    protected static int hole6;
+    protected static int hole7;
+    protected static int hole8;
+    protected static int hole9;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
