@@ -1,0 +1,53 @@
+body {
+    background-color: #344e41;
+}
+
+.score {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #fefae0;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #426851;
+    border-radius: 40px;
+}
+
+input[type=number], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #eaefbd;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: #283618;
+}
+
+input[type=submit]:hover {
+    background-color: #fefae0;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 70px;
+}
