@@ -31,7 +31,7 @@ public class ServletScoreCard extends HttpServlet {
 
         PrintWriter out = response.getWriter();
         response.setContentType("text/html");
-        out.println("<html><head>" + "<link rel='stylesheet' href='golf_style.css'>" + "</head><body>");
+        out.println("<html><head>" + "<link rel='stylesheet' href='table_style.css'>" + "</head><body>");
 
         int[] array = new int[9];
         int coursescore = 0;
@@ -64,7 +64,7 @@ public class ServletScoreCard extends HttpServlet {
 
         out.println("<h1>Course Score</h1>");
         out.println("<table>");
-        out.println("<tr><th>Hole 1</th><th>Hole 2</th><th>Hole 3</th><th>Hole 4</th><th>Hole 5</th><th>Hole 6</th><th>Hole 7</th><th>Hole 8</th><th>Hole 9</th><th> </th><th>Total</th</tr>");
+        out.println("<tr><th>Hole 1</th><th>Hole 2</th><th>Hole 3</th><th>Hole 4</th><th>Hole 5</th><th>Hole 6</th><th>Hole 7</th><th>Hole 8</th><th>Hole 9</th><th>Total</th</tr>");
         out.print("<tr>");
         for (int i=0;i<9;i++){
 
