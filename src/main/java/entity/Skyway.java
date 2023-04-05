@@ -36,6 +36,21 @@ public class Skyway {
     @Column(name = "Hole9")
     private int hole9;
 
+   public Skyway(int[] array){
+       hole1 = array[0];
+       hole2 = array[1];
+       hole3 = array[2];
+       hole4 = array[3];
+       hole5 = array[4];
+       hole6 = array[5];
+       hole7 = array[6];
+       hole8 = array[7];
+       hole9 = array[8];
+
+    }
+
+    public Skyway(){}
+
     public int getRound() {
         return round;
     }
@@ -48,8 +63,8 @@ public class Skyway {
         return hole1;
     }
 
-    public void setHole1(int hole1) {
-        this.hole1 = hole1;
+    public void setHole1(Object hole1) {
+        this.hole1 = this.hole1;
     }
 
     public int getHole2() {
